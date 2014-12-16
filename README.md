@@ -2,4 +2,4 @@ BitTorrent
 ==========
 
 BitTorrent protocol in C
-just some sourcecode writter by one other person
+just some source code written by one other person
