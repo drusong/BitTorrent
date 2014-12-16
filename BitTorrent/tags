@@ -1,0 +1,318 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Announce_list	parse_metafile.h	/^} Announce_list;$/;"	t	typeref:struct:_Announce_list
+BITFIELD	message.c	23;"	d	file:
+BITFIELD_H	bitfield.h	2;"	d
+BTERROR_H	bterror.h	2;"	d
+Bitmap	bitfield.h	/^} Bitmap;$/;"	t	typeref:struct:_Bitmap
+Btcache	data.h	/^} Btcache;$/;"	t	typeref:struct:_Btcache
+CANCEL	message.c	26;"	d	file:
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS= -Iinclude -Wall  -g -DDEBUG$/;"	m
+CHOKE	message.c	18;"	d	file:
+CLOSING	peer.h	14;"	d
+COMPUTE_RATE_TIME	policy.h	12;"	d
+DATA	peer.h	13;"	d
+DATA_H	data.h	2;"	d
+FAILED_ALLOCATE_MEM_ERR	bterror.h	14;"	d
+FILE_FD_ERR	bterror.h	4;"	d
+FILE_READ_ERR	bterror.h	5;"	d
+FILE_WRITE_ERR	bterror.h	6;"	d
+Files	parse_metafile.h	/^} Files; $/;"	t	typeref:struct:_Files
+HALFSHAKED	peer.h	9;"	d
+HANDSHAKE	message.c	16;"	d	file:
+HANDSHAKED	peer.h	10;"	d
+HAVE	message.c	22;"	d	file:
+INITIAL	peer.h	8;"	d
+INTERESTED	message.c	20;"	d	file:
+INVALID_HASH_ERR	bterror.h	11;"	d
+INVALID_MESSAGE_ERR	bterror.h	12;"	d
+INVALID_METAFILE_ERR	bterror.h	7;"	d
+INVALID_PARAMETER_ERR	bterror.h	13;"	d
+INVALID_SOCKET_ERR	bterror.h	8;"	d
+INVALID_TRACKER_REPLY_ERR	bterror.h	10;"	d
+INVALID_TRACKER_URL_ERR	bterror.h	9;"	d
+KEEP_ALIVE	message.c	17;"	d	file:
+KEEP_ALIVE_TIME	message.c	29;"	d	file:
+LDFLAGS	Makefile	/^LDFLAGS=-L.\/lib -Wl,-rpath=.\/lib -Wl,-rpath=\/usr\/local\/lib$/;"	m
+LOG_H	log.h	2;"	d
+MESSAGE_H	message.h	2;"	d
+MSG_SIZE	peer.h	17;"	d
+NO_BUFFER_ERR	bterror.h	15;"	d
+PARSE_METAFILE	parse_metafile.h	2;"	d
+PEER_H	peer.h	2;"	d
+PIECE	message.c	25;"	d	file:
+POLICY_H	policy.h	2;"	d
+PORT	message.c	27;"	d	file:
+Peer	peer.h	/^} Peer;$/;"	t	typeref:struct:_Peer
+Peer_addr	tracker.h	/^} Peer_addr;$/;"	t	typeref:struct:_Peer_addr
+R0	sha1.c	19;"	d	file:
+R1	sha1.c	20;"	d	file:
+R2	sha1.c	21;"	d	file:
+R3	sha1.c	22;"	d	file:
+R4	sha1.c	23;"	d	file:
+READ_SOCKET_ERR	bterror.h	16;"	d
+RECEIVE_EXIT_SIGNAL_ERR	bterror.h	18;"	d
+RECVBITFIELD	peer.h	12;"	d
+REQUEST	message.c	24;"	d	file:
+REQ_SLICE_NUM	policy.h	16;"	d
+Request_piece	peer.h	/^} Request_piece;$/;"	t	typeref:struct:_Request_piece
+Request_piece_head	peer.h	/^	Request_piece  *Request_piece_head;   \/\/ 向peer请求数据的队列$/;"	m	struct:_Peer
+Requested_piece_head	peer.h	/^	Request_piece  *Requested_piece_head; \/\/ 被peer请求数据的队列$/;"	m	struct:_Peer
+SENDBITFIELD	peer.h	11;"	d
+SHA1Final	sha1.c	/^void SHA1Final(unsigned char digest[20], SHA1_CTX* context)$/;"	f
+SHA1HANDSOFF	sha1.h	23;"	d
+SHA1Init	sha1.c	/^void SHA1Init(SHA1_CTX* context)$/;"	f
+SHA1Transform	sha1.c	/^void SHA1Transform(unsigned long state[5], unsigned char buffer[64])$/;"	f
+SHA1Update	sha1.c	/^void SHA1Update(SHA1_CTX* context, unsigned char* data, unsigned int len)$/;"	f
+SHA1_CTX	sha1.h	/^} SHA1_CTX;$/;"	t	typeref:struct:__anon1
+SHA1_H	sha1.h	2;"	d
+SIGNAL_HANDER_H	signal_hander.h	2;"	d
+TORRENT_H	torrent.h	2;"	d
+TRACKER_H	tracker.h	2;"	d
+UNCHOKE	message.c	19;"	d	file:
+UNCHOKE_COUNT	policy.h	14;"	d
+UNINTERESTED	message.c	21;"	d	file:
+Unchoke_peers	policy.h	/^} Unchoke_peers;$/;"	t	typeref:struct:_Unchoke_peers
+WRITE_SOCKET_ERR	bterror.h	17;"	d
+_Announce_list	parse_metafile.h	/^typedef struct _Announce_list {$/;"	s
+_Bitmap	bitfield.h	/^typedef struct _Bitmap {$/;"	s
+_Btcache	data.h	/^typedef struct _Btcache $/;"	s
+_Files	parse_metafile.h	/^typedef struct _Files {$/;"	s
+_Peer	peer.h	/^typedef struct  _Peer $/;"	s
+_Peer_addr	tracker.h	/^typedef struct _Peer_addr $/;"	s
+_Request_piece	peer.h	/^typedef struct _Request_piece $/;"	s
+_Unchoke_peers	policy.h	/^typedef struct _Unchoke_peers {$/;"	s
+access_count	data.h	/^	int             access_count; \/\/ 对该缓冲区的访问计数$/;"	m	struct:_Btcache
+add_an_announce	parse_metafile.c	/^int add_an_announce(char *url)$/;"	f
+add_peer_node	peer.c	/^Peer* add_peer_node()$/;"	f
+add_peer_node_to_peerlist	tracker.c	/^int add_peer_node_to_peerlist(int *sock,struct sockaddr_in saptr)$/;"	f
+all_set	bitfield.c	/^int all_set(Bitmap *bitmap)$/;"	f
+all_zero	bitfield.c	/^int all_zero(Bitmap *bitmap)$/;"	f
+am_choking	peer.h	/^	int            am_choking;            \/\/ 是否将peer阻塞$/;"	m	struct:_Peer
+am_interested	peer.h	/^	int            am_interested;         \/\/ 是否对peer感兴趣$/;"	m	struct:_Peer
+announce	parse_metafile.h	/^	char    announce[128];$/;"	m	struct:_Announce_list
+announce_list_head	parse_metafile.c	/^Announce_list *announce_list_head = NULL; \/\/ 用于保存所有tracker服务器的URL$/;"	v
+begin	data.h	/^	int             begin;        \/\/ 数据在piece块中的起始位置$/;"	m	struct:_Btcache
+begin	peer.h	/^	int     begin;                \/\/ 请求的piece的偏移$/;"	m	struct:_Request_piece
+bitfield	bitfield.h	/^	unsigned char *bitfield;       \/\/ 保存位图$/;"	m	struct:_Bitmap
+bitfield_length	bitfield.h	/^	int           bitfield_length; \/\/ 位图所占的总字节数$/;"	m	struct:_Bitmap
+bitmap	bitfield.c	/^Bitmap      *bitmap = NULL;         \/\/ 指向位图$/;"	v
+bitmap	peer.h	/^	Bitmap         bitmap;                \/\/ 存放peer的位图$/;"	m	struct:_Peer
+blk	sha1.c	15;"	d	file:
+blk0	sha1.c	10;"	d	file:
+blk0	sha1.c	13;"	d	file:
+btcache_head	data.c	/^Btcache *btcache_head = NULL;$/;"	v
+btcache_len	data.c	26;"	d	file:
+btexit	bterror.c	/^void btexit(int errno,char *file,int line)$/;"	f
+buff	data.h	/^	unsigned char   *buff;        \/\/ 指向缓冲区的指针$/;"	m	struct:_Btcache
+buff_len	peer.h	/^	int            buff_len;              \/\/ 缓存区in_buff的长度$/;"	m	struct:_Peer
+buffer	sha1.h	/^    unsigned char buffer[64];$/;"	m	struct:__anon1
+cancel_request_list	peer.c	/^int cancel_request_list(Peer *node)$/;"	f
+cancel_requested_list	peer.c	/^int cancel_requested_list(Peer *node)$/;"	f
+char_to_int	message.c	/^int char_to_int(unsigned char c[4])$/;"	f
+clear_btcache	data.c	/^void clear_btcache()$/;"	f
+clear_btcache_before_peer_close	data.c	/^void clear_btcache_before_peer_close(Peer *peer)$/;"	f
+clear_connect_peer	torrent.c	/^void clear_connect_peer()$/;"	f
+clear_connect_tracker	torrent.c	/^void clear_connect_tracker()$/;"	f
+clear_tracker_response	torrent.c	/^void clear_tracker_response()$/;"	f
+compute_rate	policy.c	/^int compute_rate()$/;"	f
+compute_total_rate	policy.c	/^int compute_total_rate()$/;"	f
+count	policy.h	/^	int    count;$/;"	m	struct:_Unchoke_peers
+count	sha1.h	/^    unsigned long count[2];$/;"	m	struct:__anon1
+create_bitfield	bitfield.c	/^int create_bitfield()$/;"	f
+create_bitfield_msg	message.c	/^int create_bitfield_msg(char *bitfield,int bitfield_len,Peer *peer)$/;"	f
+create_btcache	data.c	/^int create_btcache()$/;"	f
+create_cancel_msg	message.c	/^int create_cancel_msg(int index,int begin,int length,Peer *peer)$/;"	f
+create_chock_interested_msg	message.c	/^int create_chock_interested_msg(int type,Peer *peer)$/;"	f
+create_files	data.c	/^int create_files()$/;"	f
+create_handshake_msg	message.c	/^int create_handshake_msg(char *info_hash,char *peer_id,Peer *peer)$/;"	f
+create_have_msg	message.c	/^int create_have_msg(int index,Peer *peer)$/;"	f
+create_keep_alive_msg	message.c	/^int create_keep_alive_msg(Peer *peer)$/;"	f
+create_piece_msg	message.c	/^int create_piece_msg(int index,int begin,char *block,int b_len,Peer *peer)$/;"	f
+create_port_msg	message.c	/^int create_port_msg(int port,Peer *peer)$/;"	f
+create_req_slice_msg	policy.c	/^int create_req_slice_msg(Peer *node)$/;"	f
+create_req_slice_msg_from_btcache	policy.c	/^int create_req_slice_msg_from_btcache(Peer *node)$/;"	f
+create_request	tracker.c	/^int create_request(char *request,int len,Announce_list *node,$/;"	f
+create_request_msg	message.c	/^int create_request_msg(int index,int begin,int length,Peer *peer)$/;"	f
+create_response_message	message.c	/^int create_response_message(Peer *peer)$/;"	f
+del_peer_node	peer.c	/^int del_peer_node(Peer *peer)$/;"	f
+delete_request_end_mode	data.c	/^int delete_request_end_mode(int index)$/;"	f
+discard_send_buffer	message.c	/^void discard_send_buffer(Peer *peer)$/;"	f
+do_clear_work	signal_hander.c	/^void do_clear_work()$/;"	f
+down_count	peer.h	/^	long long      down_count;            \/\/ 本计时周期从peer下载的数据的字节数$/;"	m	struct:_Peer
+down_rate	peer.h	/^	float          down_rate;             \/\/ 本计时周期从peer处下载数据的速度$/;"	m	struct:_Peer
+down_total	peer.h	/^	unsigned int   down_total;            \/\/ 从该peer下载的数据的总和$/;"	m	struct:_Peer
+download_piece_num	bitfield.c	/^int         download_piece_num = 0; \/\/ 当前已下载的piece数 $/;"	v
+download_upload_with_peers	torrent.c	/^int download_upload_with_peers()$/;"	f
+end_mode	data.c	/^int end_mode = 0;$/;"	v
+fds	data.c	/^int *fds    = NULL;$/;"	v
+fds_len	data.c	/^int fds_len = 0;$/;"	v
+file_length	parse_metafile.c	/^long long file_length   = 0;    \/\/ 存放待下载文件的总长度$/;"	v
+file_name	parse_metafile.c	/^char      *file_name    = NULL; \/\/ 对于单文件,存放文件名;对于多文件,存放目录名$/;"	v
+files_head	parse_metafile.c	/^Files     *files_head   = NULL; \/\/ 只对多文件种子有效,存放各个文件的路径和长度$/;"	v
+filesize	parse_metafile.c	/^long  filesize;                 \/\/ 种子文件的长度$/;"	v
+find_keyword	parse_metafile.c	/^int find_keyword(char *keyword,long *position)$/;"	f
+free_peer_addr_head	tracker.c	/^void free_peer_addr_head()$/;"	f
+free_peer_node	peer.c	/^void  free_peer_node(Peer *node)$/;"	f
+get_bit_value	bitfield.c	/^int get_bit_value(Bitmap *bitmap,int index)  $/;"	f
+get_download_piece_num	bitfield.c	/^int get_download_piece_num()$/;"	f
+get_file_length	parse_metafile.c	/^int get_file_length()$/;"	f
+get_file_name	parse_metafile.c	/^int get_file_name()$/;"	f
+get_files_count	data.c	/^int get_files_count()$/;"	f
+get_files_length_path	parse_metafile.c	/^int get_files_length_path()$/;"	f
+get_info_hash	parse_metafile.c	/^int get_info_hash()$/;"	f
+get_last_index	policy.c	/^int get_last_index(Peer **array,int len)$/;"	f
+get_peer_id	parse_metafile.c	/^int get_peer_id()$/;"	f
+get_piece_length	parse_metafile.c	/^int get_piece_length()$/;"	f
+get_pieces	parse_metafile.c	/^int get_pieces()$/;"	f
+get_rand_numbers	policy.c	/^int get_rand_numbers(int length)$/;"	f
+get_response_type	tracker.c	/^int get_response_type(char *buffer,int len,int *total_length)$/;"	f
+get_tracker_name	tracker.c	/^int get_tracker_name(Announce_list *node,char *name,int len)$/;"	f
+get_tracker_port	tracker.c	/^int get_tracker_port(Announce_list *node,unsigned short *port)$/;"	f
+have_piece_index	data.c	/^int have_piece_index[64]; $/;"	v
+http_encode	tracker.c	/^int http_encode(unsigned char *in,int len1,char *out,int len2)$/;"	f
+id	peer.h	/^	char           id[21];                \/\/ peer的id$/;"	m	struct:_Peer
+in_buff	peer.h	/^	char           *in_buff;              \/\/ 存放从peer处获取的消息$/;"	m	struct:_Peer
+in_use	data.h	/^	unsigned char   in_use;       \/\/ 该缓冲区是否在使用中$/;"	m	struct:_Btcache
+index	data.h	/^	int             index;        \/\/ 数据所在的piece块的索引$/;"	m	struct:_Btcache
+index	peer.h	/^	int     index;                \/\/ 请求的piece的索引$/;"	m	struct:_Request_piece
+info_hash	parse_metafile.c	/^unsigned char info_hash[20];    \/\/ 保存info_hash的值,连接tracker和peer时使用$/;"	v
+init_logfile	log.c	/^int init_logfile(char *filename)$/;"	f
+init_unchoke_peers	policy.c	/^void init_unchoke_peers()$/;"	f
+initialize_btcache_node	data.c	/^Btcache* initialize_btcache_node()$/;"	f
+initialize_peer	peer.c	/^int  initialize_peer(Peer *peer)$/;"	f
+int_to_char	message.c	/^int int_to_char(int i, unsigned char c[4])$/;"	f
+ip	peer.h	/^	char           ip[16];                \/\/ peer的ip地址$/;"	m	struct:_Peer
+ip	tracker.h	/^	char              ip[16];$/;"	m	struct:_Peer_addr
+is_a_complete_piece	data.c	/^int is_a_complete_piece(int index, int *sequnce)$/;"	f
+is_complete_message	message.c	/^int is_complete_message(unsigned char *buff,unsigned int len,int *ok_len)$/;"	f
+is_full	data.h	/^	unsigned char   is_full;      \/\/ 缓冲区是否满$/;"	m	struct:_Btcache
+is_in_unchoke_peers	policy.c	/^int is_in_unchoke_peers(Peer *node)$/;"	f
+is_interested	bitfield.c	/^int is_interested(Bitmap *dst,Bitmap *src)$/;"	f
+is_multi_files	parse_metafile.c	/^int is_multi_files()$/;"	f
+is_seed	policy.c	/^int is_seed(Peer *node)$/;"	f
+is_writed	data.h	/^	unsigned char   is_writed;    \/\/ 缓冲区中的数据是否已经写入到硬盘中$/;"	m	struct:_Btcache
+last_down_timestamp	peer.h	/^	time_t         last_down_timestamp;   \/\/ 最近下载数据的开始时间$/;"	m	struct:_Peer
+last_piece	data.c	/^Btcache *last_piece = NULL;$/;"	v
+last_piece_count	data.c	/^int      last_piece_count = 0;$/;"	v
+last_piece_index	data.c	/^int      last_piece_index = 0;$/;"	v
+last_slice_len	data.c	/^int      last_slice_len   = 0;$/;"	v
+last_up_timestamp	peer.h	/^	time_t         last_up_timestamp;     \/\/ 最近上传数据的开始时间$/;"	m	struct:_Peer
+length	data.h	/^	int             length;       \/\/ 数据的长度$/;"	m	struct:_Btcache
+length	parse_metafile.h	/^	long    length;$/;"	m	struct:_Files
+length	peer.h	/^	int     length;               \/\/ 请求的长度,一般为16KB$/;"	m	struct:_Request_piece
+logcmd	log.c	/^void logcmd(char *fmt,...)$/;"	f
+logfile	log.c	/^int logfile(char *file,int line,char *msg)$/;"	f
+logfile_fd	log.c	/^int logfile_fd = -1;$/;"	v
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+metafile_content	parse_metafile.c	/^char  *metafile_content = NULL; \/\/ 保存种子文件的内容$/;"	v
+msg_copy_index	peer.h	/^	int            msg_copy_index;        \/\/ 下一次要发送的数据的偏移量$/;"	m	struct:_Peer
+msg_copy_len	peer.h	/^	int            msg_copy_len;          \/\/ 缓冲区out_msg_copy的长度$/;"	m	struct:_Peer
+msg_len	peer.h	/^	int            msg_len;               \/\/ 缓冲区out_msg的长度$/;"	m	struct:_Peer
+multi_file	parse_metafile.c	/^int       multi_file    = 0;    \/\/ 指明是单文件还是多文件$/;"	v
+next	data.h	/^	struct _Btcache *next;$/;"	m	struct:_Btcache	typeref:struct:_Btcache::_Btcache
+next	parse_metafile.h	/^	struct _Announce_list  *next;$/;"	m	struct:_Announce_list	typeref:struct:_Announce_list::_Announce_list
+next	parse_metafile.h	/^	struct _Files *next;$/;"	m	struct:_Files	typeref:struct:_Files::_Files
+next	peer.h	/^	struct _Peer   *next;                 \/\/ 指向下一个Peer结构体$/;"	m	struct:_Peer	typeref:struct:_Peer::_Peer
+next	peer.h	/^	struct _Request_piece *next;$/;"	m	struct:_Request_piece	typeref:struct:_Request_piece::_Request_piece
+next	tracker.h	/^	struct _Peer_addr *next;$/;"	m	struct:_Peer_addr	typeref:struct:_Peer_addr::_Peer_addr
+optunchkpeer	policy.h	/^	Peer*  optunchkpeer;$/;"	m	struct:_Unchoke_peers
+out_msg	peer.h	/^	char           *out_msg;              \/\/ 存放将发送给peer的消息$/;"	m	struct:_Peer
+out_msg_copy	peer.h	/^	char           *out_msg_copy;         \/\/ out_msg的副本,发送时使用该缓冲区$/;"	m	struct:_Peer
+parse_metafile	parse_metafile.c	/^int parse_metafile(char *metafile)$/;"	f
+parse_response	message.c	/^int parse_response(Peer *peer)$/;"	f
+parse_response_uncomplete_msg	message.c	/^int parse_response_uncomplete_msg(Peer *p,int ok_len)$/;"	f
+parse_tracker_response1	tracker.c	/^int parse_tracker_response1(char *buffer,int ret,char *redirection,int len)$/;"	f
+parse_tracker_response2	tracker.c	/^int parse_tracker_response2(char *buffer,int ret)$/;"	f
+path	parse_metafile.h	/^	char    path[256];$/;"	m	struct:_Files
+peer_addr	torrent.c	/^struct sockaddr_in   *peer_addr  = NULL;$/;"	v	typeref:struct:sockaddr_in
+peer_addr_head	tracker.c	/^Peer_addr  *peer_addr_head = NULL;$/;"	v
+peer_choking	peer.h	/^	int            peer_choking;          \/\/ 是否被peer阻塞$/;"	m	struct:_Peer
+peer_count	torrent.c	/^int                  peer_count  = 0;$/;"	v
+peer_head	peer.c	/^Peer *peer_head = NULL;$/;"	v
+peer_id	parse_metafile.c	/^unsigned char peer_id[20];      \/\/ 保存peer_id的值,连接peer时使用$/;"	v
+peer_interested	peer.h	/^	int            peer_interested;       \/\/ 是否被peer感兴趣$/;"	m	struct:_Peer
+peer_sock	torrent.c	/^int                  *peer_sock  = NULL;$/;"	v
+peer_valid	torrent.c	/^int                  *peer_valid = NULL;$/;"	v
+piece_length	parse_metafile.c	/^int       piece_length  = 0;    \/\/ 每个piece的长度,通常为256KB即262144字节$/;"	v
+pieces	parse_metafile.c	/^char      *pieces       = NULL; \/\/ 保存每个pieces的哈希值,每个哈希值为20字节$/;"	v
+pieces_length	parse_metafile.c	/^int       pieces_length = 0;    \/\/ pieces缓冲区的长度$/;"	v
+port	peer.h	/^	unsigned short port;                  \/\/ peer的端口号$/;"	m	struct:_Peer
+port	tracker.h	/^	unsigned short    port;$/;"	m	struct:_Peer_addr
+prepare_connect_peer	tracker.c	/^int prepare_connect_peer(int *max_sockfd)$/;"	f
+prepare_connect_tracker	tracker.c	/^int prepare_connect_tracker(int *max_sockfd)$/;"	f
+prepare_send_have_msg	message.c	/^int prepare_send_have_msg()$/;"	f
+print_bitfield	bitfield.c	/^int print_bitfield(Bitmap *bitmap)$/;"	f
+print_msg_buffer	message.c	/^int print_msg_buffer(unsigned char *buffer, int len)$/;"	f
+print_peer_list	torrent.c	/^int print_peer_list()$/;"	f
+print_peers_data	peer.c	/^void print_peers_data()$/;"	f
+print_process_info	torrent.c	/^void print_process_info()$/;"	f
+process_bitfield_msg	message.c	/^int process_bitfield_msg(Peer *peer,unsigned char *buff,int len)$/;"	f
+process_cancel_msg	message.c	/^int process_cancel_msg(Peer *peer,unsigned char *buff,int len)$/;"	f
+process_choke_msg	message.c	/^int process_choke_msg(Peer *peer,unsigned char *buff,int len)$/;"	f
+process_handshake_msg	message.c	/^int process_handshake_msg(Peer *peer,unsigned char *buff,int len)$/;"	f
+process_have_msg	message.c	/^int process_have_msg(Peer *peer,unsigned char *buff,int len)$/;"	f
+process_interested_msg	message.c	/^int process_interested_msg(Peer *peer,unsigned char *buff,int len)$/;"	f
+process_keep_alive_msg	message.c	/^int process_keep_alive_msg(Peer *peer,unsigned char *buff,int len)$/;"	f
+process_piece_msg	message.c	/^int process_piece_msg(Peer *peer,unsigned char *buff,int len)$/;"	f
+process_request_msg	message.c	/^int process_request_msg(Peer *peer,unsigned char *buff,int len)$/;"	f
+process_signal	signal_hander.c	/^void process_signal(int signo)$/;"	f
+process_unchoke_msg	message.c	/^int process_unchoke_msg(Peer *peer,unsigned char *buff,int len)$/;"	f
+process_uninterested_msg	message.c	/^int process_uninterested_msg(Peer *peer,unsigned char *buff,int len)$/;"	f
+rand_num	policy.c	/^int *rand_num = NULL;$/;"	v
+read_announce_list	parse_metafile.c	/^int read_announce_list()$/;"	f
+read_last_piece_from_harddisk	data.c	/^int read_last_piece_from_harddisk(Btcache *p, int index)$/;"	f
+read_metafile	parse_metafile.c	/^int read_metafile(char *metafile_name)$/;"	f
+read_piece_from_harddisk	data.c	/^int read_piece_from_harddisk(Btcache *p, int index)$/;"	f
+read_slice_for_send	data.c	/^int read_slice_for_send(int index,int begin,int length,Peer *peer)$/;"	f
+read_slice_for_send_last_piece	data.c	/^int read_slice_for_send_last_piece(int index,int begin,int length,Peer *peer)$/;"	f
+read_slice_from_harddisk	data.c	/^int read_slice_from_harddisk(Btcache *node)$/;"	f
+read_write	data.h	/^	unsigned char   read_write;   \/\/ 是发送给peer的数据还是接收到的数据$/;"	m	struct:_Btcache
+recet_timestamp	peer.h	/^	time_t         recet_timestamp;       \/\/ 最近一次发送消息给peer的时间$/;"	m	struct:_Peer
+release_last_piece	data.c	/^void release_last_piece()$/;"	f
+release_memory_in_bitfield	bitfield.c	/^void release_memory_in_bitfield()$/;"	f
+release_memory_in_btcache	data.c	/^void release_memory_in_btcache()$/;"	f
+release_memory_in_parse_metafile	parse_metafile.c	/^void release_memory_in_parse_metafile()$/;"	f
+release_memory_in_peer	peer.c	/^void  release_memory_in_peer()$/;"	f
+release_memory_in_torrent	torrent.c	/^void release_memory_in_torrent()$/;"	f
+release_read_btcache_node	data.c	/^int release_read_btcache_node(int base_count)$/;"	f
+response_index	torrent.c	/^int                  response_index = 0;$/;"	v
+response_len	torrent.c	/^int                  response_len   = 0;$/;"	v
+restore_bitmap	bitfield.c	/^int restore_bitmap()$/;"	f
+rol	sha1.c	5;"	d	file:
+select_optunchoke_peer	policy.c	/^int select_optunchoke_peer()$/;"	f
+select_unchoke_peer	policy.c	/^int select_unchoke_peer()$/;"	f
+set_bit_value	bitfield.c	/^int set_bit_value(Bitmap *bitmap,int index,unsigned char v)$/;"	f
+set_signal_hander	signal_hander.c	/^int set_signal_hander()$/;"	f
+sock	torrent.c	/^int                  *sock    = NULL;$/;"	v
+socket	peer.h	/^	int            socket;                \/\/ 通过该socket与peer进行通信$/;"	m	struct:_Peer
+start_timestamp	peer.h	/^	time_t         start_timestamp;       \/\/ 最近一次接收到peer消息的时间$/;"	m	struct:_Peer
+state	peer.h	/^	int            state;                 \/\/ 当前所处的状态$/;"	m	struct:_Peer
+state	sha1.h	/^    unsigned long state[5];$/;"	m	struct:__anon1
+threshold	torrent.c	26;"	d	file:
+total_down	policy.c	/^long long      total_down = 0L, total_up = 0L;$/;"	v
+total_down_rate	policy.c	/^float          total_down_rate = 0.0F, total_up_rate = 0.0F;$/;"	v
+total_peers	policy.c	/^int            total_peers = 0;$/;"	v
+total_up	policy.c	/^long long      total_down = 0L, total_up = 0L;$/;"	v
+total_up_rate	policy.c	/^float          total_down_rate = 0.0F, total_up_rate = 0.0F;$/;"	v
+tracker	torrent.c	/^struct sockaddr_in   *tracker = NULL;$/;"	v	typeref:struct:sockaddr_in
+tracker_count	torrent.c	/^int                  tracker_count  = 0;$/;"	v
+tracker_response	torrent.c	/^char                 *tracker_response = NULL;$/;"	v
+unchkpeer	policy.h	/^	Peer*  unchkpeer[UNCHOKE_COUNT];$/;"	m	struct:_Unchoke_peers
+unchoke_peers	policy.c	/^Unchoke_peers  unchoke_peers;$/;"	v
+up_count	peer.h	/^	long long      up_count;              \/\/ 本计时周期向peer上传的数据的字节数$/;"	m	struct:_Peer
+up_rate	peer.h	/^	float          up_rate;               \/\/ 本计时周期向peer处上传数据的速度$/;"	m	struct:_Peer
+up_total	peer.h	/^	unsigned int   up_total;              \/\/ 向该peer上传的数据的总和$/;"	m	struct:_Peer
+valid	torrent.c	/^int                  *valid   = NULL;$/;"	v
+valid_length	bitfield.h	/^	int           valid_length;    \/\/ 位图有效的总位数,每一位代表一个piece$/;"	m	struct:_Bitmap
+write_btcache_node_to_harddisk	data.c	/^int write_btcache_node_to_harddisk(Btcache *node)$/;"	f
+write_btcache_to_harddisk	data.c	/^int write_btcache_to_harddisk(Peer *peer)$/;"	f
+write_last_piece_to_btcache	data.c	/^int write_last_piece_to_btcache(Peer *peer)$/;"	f
+write_piece_to_harddisk	data.c	/^int write_piece_to_harddisk(int sequnce,Peer *peer)$/;"	f
+write_slice_to_btcache	data.c	/^int write_slice_to_btcache(int index,int begin,int length,$/;"	f
+write_slice_to_last_piece	data.c	/^int write_slice_to_last_piece(int index,int begin,int length,$/;"	f
